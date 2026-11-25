@@ -5,7 +5,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 const SITE = "高爾夫・身心健康與人際互動";
 const TAGLINE = "打一場球，照顧身體、安頓心情、連結彼此";
 const BASE = "https://kuanyuhou.github.io/golf-wellbeing-connection/";
-const OG_IMAGE = `${BASE}og-image.png`; // 原始設計在 og/og.html，1200×630
+const OG_IMAGE = `${BASE}og-image.png?v=2`; // 原始設計在 og/og.html，1200×630
 
 // nav: 導覽列文字；star: 重點頁（身心健康、人際互動）
 const pages = [
